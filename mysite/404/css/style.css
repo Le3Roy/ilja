@@ -1,0 +1,350 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  src: url('CircularStd-Medium.otf');
+  font-family: circularm;
+}
+@font-face {
+  src: url('CircularStd-Bold.otf');
+  font-family: circular;
+}
+@font-face {
+  src: url('CircularStd-Medium.otf');
+  font-family: circularm;
+}
+body
+{
+background: #060819;
+  overflow: hidden;
+}
+header
+{
+  width: 80vw;
+  height: 49px;
+  margin: 84px auto 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  position: relative;
+}
+.logo
+{
+  font-family: circularm;
+  font-size: 32px;
+  letter-spacing: -0.8896px;
+  line-height: 100%;
+  color: #fff;
+}
+.menu
+{
+  width: 49px;
+  height: 49px;
+  position: relative;
+  z-index: 10000;
+}
+.hamburger
+{
+  width: 34px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  top: 16px;
+  left: 7px;
+}
+.hamburger2
+{
+  width: 34px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  top: 28px;
+  left: 7px;
+}
+#textpage
+{
+  width: 627px;
+  height: 304px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: 22vh;
+  left: 10vw;
+}
+.text404 p
+{
+font-family: circular;
+font-size: 70px;
+letter-spacing: -1.82px;
+line-height: 90px;
+color: #fff;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 2;
+}
+.buttonback
+{
+  width: 200px;
+  height: 66px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 33px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 2;
+}
+.buttonback p
+{
+  color: #060819;
+  font-size: 23px;
+  font-family: circularm;
+  line-height: 100%;
+  letter-spacing: -0.598px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-left: 35px;
+  z-index: 2;
+}
+.arrow
+{
+  box-sizing: border-box;
+  padding-top: 22px;
+  padding-right: 36px;
+  z-index: 2;
+}
+/*planets*/
+.planet1
+{
+width: 112px;
+height: 112px;
+border-radius: 50%;
+position: absolute;
+top: 578px;
+right: 10vw;
+box-sizing: border-box;
+z-index: 10000;
+background: linear-gradient(0deg, rgba(6, 8, 25, 0.2), rgba(6, 8, 25, 0.2)), linear-gradient(0deg, rgba(23, 29, 57, 0.195199), rgba(23, 29, 57, 0.195199)), radial-gradient(75.25px at 57.78% 63.21%, #09101B 0%, #0F1724 57.92%, #1C2431 81.21%, #37404F 100%);
+}
+.planet2
+{
+position: absolute;
+left: -275px;
+top: 73vh;
+width: 771.73px;
+height: 771.73px;
+border-radius: 50%;
+z-index: 2;
+background: linear-gradient(0deg, rgba(6, 8, 25, 0.3), rgba(6, 8, 25, 0.3)), linear-gradient(0deg, rgba(10, 14, 29, 0.104761), rgba(10, 14, 29, 0.104761)), radial-gradient(375.20px at 50.94% 48.3%, #060819 0%, #060819 69.94%, #131C29 89.47%, #1C202E 100%);
+}
+.planet3
+{
+position: absolute;
+right: 234px;
+top: 235px;
+width: 16px;
+height: 16px;
+background: linear-gradient(55.19deg, #3B414F 11.83%, rgba(58, 65, 79, 0.0001) 93.06%);
+opacity: 0.75;
+border-radius: 50%;
+z-index: 10000;
+}
+/*GARG*/
+.oval1
+{
+position: absolute;
+right: 367px;
+top: 308px;
+width: 138.15px;
+height: 138.2px;
+border-radius: 50%;
+transform: rotate(-18deg);
+border: 1px solid #fff;
+z-index: 2;
+}
+.oval2
+{
+position: absolute;
+right: 365px;
+top: 306px;
+width: 142.55px;
+height: 142.6px;
+border-radius: 50%;
+border: 1px solid #fff;
+transform: rotate(-18deg);
+z-index: 2;
+}
+.oval3
+{
+position: absolute;
+right: 359px;
+top: 300px;
+width: 151px;
+height: 151px;
+border-radius: 50%;
+border: 3px solid #fff;
+transform: rotate(-18deg);
+z-index: 2;
+}
+.oval4
+{
+position: absolute;
+right: 326px;
+top: 266.85px;
+width: 172px;
+height: 172px;
+border-radius: 50%;
+border: 25px solid #fff;
+transform: rotate(-18deg);
+z-index: 2;
+}
+.oval5
+{
+position: absolute;
+right: 319px;
+top: 260px;
+width: 228px;
+height: 228px;
+border-radius: 50%;
+border: 4px solid #fff;
+transform: rotate(-18deg);
+z-index: 2;
+}
+.oval6
+{
+position: absolute;
+right: 314px;
+top: 255px;
+width: 245px;
+height: 245px;
+border-radius: 50%;
+border: 1px solid #fff;
+transform: rotate(-18deg);
+z-index: 2;
+}
+.oval7
+{
+position: absolute;
+right: 309px;
+top: 251px;
+width: 254px;
+height: 254px;
+border-radius: 50%;
+border: 1px solid #fff;
+transform: rotate(-18deg);
+z-index: 2;
+}
+.gargwhite
+{
+position: absolute;
+right: 175px;
+top: 380px;
+width: 535px;
+height: 8.4px;
+border-radius: 50%;
+background: #fff;
+transform: rotate(-18deg);
+z-index: 2;
+}
+.gargblack
+{
+position: absolute;
+right: 305px;
+top: 385px;
+width: 257px;
+height: 9.6px;
+background: #060819;
+transform: rotate(-18deg);
+border-radius: 10%;
+z-index: 2;
+}
+.blur
+{
+position: absolute;
+right: -145px;
+top: -186px;
+width: 1080px;
+height: 1080px;
+border-radius: 50%;
+background: #fff;
+mix-blend-mode: normal;
+opacity: 0.04;
+filter: blur(500.742px);
+z-index: 2;
+}
+.blurm
+{
+position: absolute;
+right: 71px;
+top: 50px;
+width: 648px;
+height: 648px;
+background: #fff;
+mix-blend-mode: normal;
+border-radius: 50%;
+opacity: 0.05;
+filter: blur(407.742px);
+z-index: 2;
+}
+.gargblur
+{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  mix-blend-mode: normal;
+  background: #fff;
+    opacity: 0.4;
+    filter: blur(150px);
+  position: absolute;
+  right: 290px;
+  top: 230px;
+  z-index: 2;
+}
+.stars
+{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+}
+.star
+{
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  position: absolute;
+  background: #fff;
+}
+.starb
+{
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  position: absolute;
+  background: #fff;
+}
+.starm
+{
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  position: absolute;
+  background: #fff;
+}
+.blackback
+{
+  width: 255px;
+  height: 255px;
+  background: #060819;
+  border-radius: 50%;
+  z-index: 1;
+  position: absolute;
+  right: 269px;
+  top: 251px;
+}
